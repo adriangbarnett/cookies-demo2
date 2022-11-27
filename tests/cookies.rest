@@ -1,0 +1,20 @@
+### /
+GET http://localhost:3000/
+
+### set
+GET http://localhost:3000/setcookies
+
+### get
+GET http://localhost:3000/getcookies
+
+### get cookie by name
+#   name=sky
+#   name=grass
+GET http://localhost:3000/getcookiebyname?name=sky
+
+### get list
+GET http://localhost:3000/getcookieslist
+
+### clear
+GET http://localhost:3000/clearcookies
+
